@@ -1,0 +1,10 @@
+nest_asyncio 
+aiohttp 
+beautifulsoup4 
+langchain 
+openai 
+faiss-cpu
+langchain-community
+pypdf2
+langchain_community
+tiktoken
