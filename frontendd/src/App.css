@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Container for the app */
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input field for the query */
+.query-container {
+  margin-bottom: 20px;
+}
+
+.query-input {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+.query-input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Response section */
+.response-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.response {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.loading {
+  font-size: 18px;
+  color: #4caf50;
+  font-weight: bold;
+}
